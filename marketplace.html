@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Marketplace</title>
+    <link rel="stylesheet" href="css/style1.css">
+    <script src="js/app.js" defer></script>
+</head>
+<body onload="displayProducts()">
+    <header>
+        <h1>Marketplace</h1>
+    </header>
+    <section id="product-container" class="card-container"></section>
+
+    <!-- Product Modal -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modal-name"></h2>
+            <p id="modal-description"></p>
+            <p id="modal-price"></p>
+        </div>
+    </div>
+</body>
+</html>
